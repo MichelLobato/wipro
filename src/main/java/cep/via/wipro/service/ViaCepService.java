@@ -21,7 +21,7 @@ public class ViaCepService {
 
         try {
             return restTemplate.getForObject(url, ViaCepDTO.class);
-        } catch (Exception ex) {
+        }catch (Exception ex) {
             throw new EnderecoNaoEncontrato(String.format(ENDERECO_NAO_ENCONTRADO));
         }
     }
