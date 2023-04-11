@@ -25,8 +25,9 @@ public class EnderecoService {
         enderecoResponseDTO.setCep(response.getCep());
         enderecoResponseDTO.setRua(response.getLogradouro());
         enderecoResponseDTO.setComplemento(response.getComplemento());
+        enderecoResponseDTO.setBairro(response.getBairro());
         enderecoResponseDTO.setCidade(response.getLocalidade());
-        enderecoResponseDTO.setEstado(response.getBairro());
+        enderecoResponseDTO.setEstado(response.getUf());
         enderecoResponseDTO.setFrete(response.getFrete());
 
         return enderecoResponseDTO;
