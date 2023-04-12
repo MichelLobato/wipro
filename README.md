@@ -31,7 +31,7 @@ Nordeste: R$ 15,98
 Sul: R$ 17,30
 Norte: R$ 20,83
 Documentação Swagger
-A documentação da API pode ser acessada em tempo de execução através do Swagger UI. Para acessar, basta abrir o seguinte endereço em um navegador web: http://localhost:8080/swagger-ui.html.
+A documentação da API pode ser acessada em tempo de execução através do Swagger UI. Para acessar, basta abrir o seguinte endereço em um navegador web: http://localhost:8080/swagger-ui/index.html.
 
 Testes
 A API possui testes unitários desenvolvidos com o framework JUnit 5. Além disso, também foram desenvolvidos testes automatizados utilizando o framework Cucumber.
